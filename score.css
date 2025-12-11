@@ -24,6 +24,7 @@ background: linear-gradient(90deg, #1af37c, #02f55f);
   text-align: center;
   margin: 10px;
   padding: 10px;
+  text-shadow: 0px 4px 10px rgba(0,0,0,0.5);
 }
 .box1,
 .box2{
