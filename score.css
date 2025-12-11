@@ -1,0 +1,80 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.4;
+  background-color: blue;
+  width: 100vw;
+  height:100vh
+}
+
+.main-box1{
+background: linear-gradient(90deg, #1af37c, #02f55f);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.score{
+  font-weight: bold;
+  color: white;
+  font-size:100px;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+.box1,
+.box2{
+  display: flex;
+text-align: center;
+height: 50%;
+}
+.red-house{
+  background: linear-gradient(90deg, #FF3D00, #FF9100);
+width: 50%;
+font-size: 40px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.name1,
+.score1{
+    font-weight: bold;
+  color: white;
+  text-align: center;
+  font-size: 70px;
+}
+.name2,
+.score2{
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  font-size: 70px;
+}
+.green-house{
+ background: linear-gradient(to right, #0D47A1, #26A69A);
+width: 50%;
+font-size: 40px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.blue-house{
+  background-color: darkslateblue;
+width: 50%;
+font-size: 40px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.yellow-house{
+background: linear-gradient(90deg, #fcef61, #e2cd09);
+width: 50%;
+font-size: 40px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
